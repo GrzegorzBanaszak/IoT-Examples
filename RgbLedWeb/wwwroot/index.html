@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RGB LED Controller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background: #121212;
+        color: white;
+        padding: 50px;
+      }
+      input[type="color"] {
+        width: 200px;
+        height: 200px;
+        border: none;
+        cursor: pointer;
+        background: none;
+      }
+      h1 {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sterowanie Diodą RGB</h1>
+    <input type="color" id="picker" value="#000000" />
+    <p>Wybierz kolor, aby zmienić barwę diody w czasie rzeczywistym.</p>
+
+    <script>
+      const picker = document.getElementById("picker");
+      // 'input' reaguje na żywo podczas przesuwania palcem/myszką
+      picker.addEventListener("input", (e) => {
+        const color = encodeURIComponent(e.target.value);
+        fetch(`/set-color?hex=${color}`, { method: "POST" });
+      });
+    </script>
+  </body>
+</html>
