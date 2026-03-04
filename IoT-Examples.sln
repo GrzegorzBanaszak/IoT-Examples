@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RgbLedWeb", "RgbLedWeb\RgbL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dht11", "Dht11\Dht11.csproj", "{0AD17598-FE10-4A75-892C-F5886935E9ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bme280App", "Bme280App\Bme280App.csproj", "{F21DA328-43DA-41DB-96EF-364708B1A327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{0AD17598-FE10-4A75-892C-F5886935E9ED}.Release|x64.Build.0 = Release|Any CPU
 		{0AD17598-FE10-4A75-892C-F5886935E9ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AD17598-FE10-4A75-892C-F5886935E9ED}.Release|x86.Build.0 = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|x64.Build.0 = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Debug|x86.Build.0 = Debug|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|x64.ActiveCfg = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|x64.Build.0 = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|x86.ActiveCfg = Release|Any CPU
+		{F21DA328-43DA-41DB-96EF-364708B1A327}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
